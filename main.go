@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Dhaava\n\nExecute from file: dhaava <filename>\nExecute from command-line: dhaava -e <code>")
+		fmt.Println("Sapphire\n\nExecute from file: sapphire <filename>\nExecute from command-line: sapphire -e <code>")
 	} else if os.Args[1] == "-e" {
 		os.Args = arrayRemove(os.Args, 0)
 		os.Args = arrayRemove(os.Args, 0)
